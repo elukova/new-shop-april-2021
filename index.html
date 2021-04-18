@@ -215,14 +215,26 @@
     </main>
     <footer>
         <section class="feedback">
-            <ul style="list-style-type: none;">
-                <li>
-                    <img src="./img/comment.jpg" alt="comment" width="145" height="150">
-                    <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+            <ul class="feedback__list container">
+                <li class="feedback__comment">
+                    <img class="feedback__comment-img" src="img/comment_icon.svg" alt="comment-img" width="96"
+                        height="96">
+                    <p class="feedback__comment-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span
+                            class="feedback__comment-text-italica">a
+                            pulvinar purus
+                            condimentum“</span> </p>
                 </li>
-                <li>
-                    <h2>subscribe</h2>
-                    <h3>for our newletter and promotion</h3>
+                <li class="feedback__subscribe">
+                    <div class="feedback__heading-wrapper">
+                        <h2 class="feedback__subscribe-heading">subscribe <span
+                                class="feedback__subscribe-sub-heading">for
+                                our newletter and promotion</span>
+                        </h2>
+                    </div>
+                    <form action="" class="feedback__subscribe-form">
+                        <input class="feedback__subscribe-form-input" type="email" placeholder="Enter Your Email">
+                        <button class="feedback__subscribe-form-button" type="submit">Subscribe</button>
+                    </form>
                 </li>
             </ul>
         </section>
