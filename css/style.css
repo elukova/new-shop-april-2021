@@ -47,6 +47,46 @@ body {
 
 .header__logo {
     margin: 0 41px 0 0;
+    border: none;
+}
+
+.logo-icon:hover, .logo-icon:focus {
+    border: 1px solid red;
+    outline: 1px solid blue;
+}
+
+.logo-icon:active {
+    border: 1px solid green;
+}
+
+.search-icon {
+    fill: #E8E8E8;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.search-icon:hover, .search-icon:focus, .burger-icon:hover, .burger-icon:focus {
+    background-color: red;
+}
+
+.search-icon:active, .burger-icon:active {
+    background-color: blue;
+}
+
+.search-icon:checked {
+    border: none;
+    outline: none;
+}
+
+.header__search:active, .header__search:checked {
+    border: none;
+    outline: none;
+}
+
+.burger-icon {
+    fill: #E8E8E8;
+    padding: 7px 3px;
+    border-radius: 5px;
 }
 
 .header__button {
@@ -61,6 +101,14 @@ body {
 
 .header__link {
     margin: 0 0 0 34px;
+}
+
+.header__link:hover, .header__link:focus {
+    opacity: 0.8;
+}
+
+.header__link:active {
+    opacity: 0.4;
 }
 
 .promo {
