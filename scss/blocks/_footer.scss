@@ -1,0 +1,63 @@
+.footer {
+    background-color: $footer-gray;
+    min-width: 769px;
+
+
+    .finish {
+        min-height: 79px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .finish__copyright {
+        font-size: 16px;
+        color: #FBFBFB;
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+    .finish__media-list {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .facebook-icon {
+        fill: black;
+        background-color: #fff;
+        margin-right: 7px;
+        padding: 8px 12px;
+    }
+
+    .pinterest-icon {
+        fill: black;
+        background-color: #fff;
+        margin-right: 7px;
+        padding: 8px 9px;
+    }
+
+    .insta-icon {
+        margin-right: 7px;
+    }
+
+    .twitter-icon {
+        fill: black;
+        background-color: #fff;
+        padding: 9px 8px;
+    }
+
+    .facebook-icon:hover,
+    .facebook-icon:focus,
+    .insta-icon:hover,
+
+    .insta-icon:focus,
+    .pinterest-icon:hover,
+    .pinterest-icon:focus,
+
+    .twitter-icon:hover,
+    .twitter-icon:focus {
+        border: 1px solid red;
+        outline: 1px solid blue;
+    }
+
+}
