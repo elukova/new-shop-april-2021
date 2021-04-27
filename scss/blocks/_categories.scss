@@ -13,6 +13,19 @@
         flex-direction: column;
         justify-content: center;
 
+        @include tablet {
+            width: 32%;
+            min-height: 168px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        @include mobile {
+            width: 100%;
+            min-height: 247px;
+            margin-top: 32px;
+        }
+
         &--woman {
             background-image: url(../img/categories-woman.png);
         }
@@ -31,6 +44,21 @@
         width: 100%;
         min-height: 180px;
         margin-top: 30px;
+
+        @include tablet {
+            min-height: 116px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 19px;
+        }
+
+        @include mobile {
+            min-height: 111px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 32px;
+        }
+
     }
 
     .categories__text {

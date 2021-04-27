@@ -5,8 +5,18 @@ body {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    flex-grow: 1;
 }
 
 .visually-hidden {
@@ -20,9 +30,13 @@ body {
     clip: rect(0 0 0 0);
 }
 
+.finish {
+    display: none;
+}
+
 @media (max-width: $tablet-width) {
     .container {
-        width: 96%;
+        max-width: 97%;
     }
 }
 
@@ -33,10 +47,3 @@ body {
 }
 
 
-// .header {
-//     display: none;
-// }
-
-// .footer {
-//     display: none;
-// }

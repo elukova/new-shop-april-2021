@@ -1,11 +1,7 @@
 .registration {
 
-    display: flex;
-
     .registration__heading {
         min-height: 148px;
-        display: flex;
-        align-items: center;
         background-color: $light-pink;
     }
 
@@ -16,16 +12,44 @@
         line-height: 29px;
         text-align: left;
         color: $dark-pink;
+        padding-top: 60px;
     }
 
+    .registration__content {
+        display: flex;
+    }
 
     .registration__field {
         display: flex;
         flex-direction: column;
     }
 
-    .user-name {
+    .field-name {
+        padding: 64px 0 0 0;
         border: none;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        text-align: left;
+    }
+
+    .male-female {
+        display: flex;
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 13px;
+        text-align: left;
+    }
+
+    .male {
+        padding-right: 20px;
+    }
+
+    .text-input {
+        width: 360px;
+        height: 45px;
+        margin: 20px 0;
     }
 
     .registration__form {
@@ -53,6 +77,7 @@
         color: $white;
         position: relative;
         padding-left: 20px;
+        margin: 39px 0 96px;
     }
 
     .registration__perks {
@@ -61,11 +86,11 @@
 
     .registration__perks-heading {
         text-transform: uppercase;
+        padding: 64px 0 0 0;
     }
 
     .registration__perks-item,
     .registration__perks-text,
-
     .registration__perks-heading {
         font-family: Lato;
         font-size: 24px;
@@ -75,8 +100,13 @@
         text-align: left;
     }
 
+    .registration__perks-text {
+        padding: 22px 0;
+    }
+
     .registration__perks-item {
         position: relative;
+        padding: 0 0 16px 50px;
     }
 
     .registration__perks-item::before {
@@ -85,12 +115,8 @@
         width: 20px;
         height: 16px;
         left: -25px;
-        /* background-color: forestgreen; */
         background-image: url(../img/mark-icon.svg);
-    }
-
-    .registration {
-        display: flex;
+        transform: translate(25px, 10px);
     }
 
 }
