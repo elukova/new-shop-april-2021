@@ -1,10 +1,20 @@
 .advantages {
     background-color: $footer-gray;
-    min-width: 769px;
 
     &__list {
         display: flex;
         justify-content: space-around;
+
+        @include tablet {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+
     }
 
     &__item {
@@ -14,6 +24,7 @@
         justify-content: center;
         align-items: center;
         padding: 104px 0;
+  
     }
 
     &__img {

@@ -1,6 +1,5 @@
 .header {
     background-color: $dark-blue;
-    min-width: 769px;
 
     &__wrapper {
         min-height: 75px;
@@ -10,9 +9,13 @@
     }
 
     &__logo {
-        margin: 0 41px 0 0;
+        margin: 0 41px 0 16px;
         border: none;
         text-decoration: none;
+    }
+
+    .header__logo-n-search{
+        display: flex;
     }
 
     .header__logo:hover,
@@ -148,7 +151,7 @@
     }
 
     &__link {
-        margin: 0 0 0 34px;
+        margin: 0 16px;
         text-decoration: none;
     }
 
