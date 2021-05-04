@@ -1,0 +1,46 @@
+.navbar {
+    background-color: $pink;
+
+    &__wrapper {
+        display: flex;
+        min-height: 148px;
+        align-items: center;
+    }
+
+    &__header-link {
+        align-items: center;
+        flex-grow: 1;
+        text-transform: uppercase;
+        color: $dark-pink;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__breadcrumb {
+        align-items: center;
+        flex-grow: 1;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $gray;
+        margin-right: 16px;
+        position: relative;
+    }
+
+    &__link::after {
+        content: '/';
+        position: absolute;
+        right: -10px;
+    }
+
+    &__active {
+        color: $dark-pink;
+    }
+
+}
