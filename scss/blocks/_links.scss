@@ -1,0 +1,10 @@
+.links {
+display: flex;
+min-height: 100px;
+justify-content: space-between;
+align-items: center;
+
+    .links__item{
+        font-size: 30px;
+    }
+}

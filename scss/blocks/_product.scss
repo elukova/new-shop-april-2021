@@ -4,4 +4,14 @@
         width: 50% !important;
     }
 
+    .fa-arrow-left:before,
+    .fa-arrow-right:before {
+        color: #000;
+        background-color: $light-gray;
+    }
+
+    .arrowsize-30 {
+        font-size: 30px;
+    }
+
 }
